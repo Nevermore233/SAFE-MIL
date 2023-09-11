@@ -1,5 +1,4 @@
-# DFR_MIL
-A framework for predicting drug failure risk with optimal positive threshold determination.
+# DFR_MIL A framework for predicting drug failure risk with optimal positive threshold determination.
 
 Package Dependency
 pandas: 1.4.2
@@ -13,7 +12,7 @@ python data_prepare.py
 Step 2: run the code
 python main.py -dataset600 True -compare True -l 0.001 -h 50 -e 100 -f 5
 
-# description
+description
 -dataset600   choose dataset
 -compare      compare with other loss function
 -l            learning rate
